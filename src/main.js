@@ -4,7 +4,7 @@ import "./styles.scss";
 (async () => {
   const root = document.getElementById("root");
   const title = document.createElement("h1");
-  title.innerText = "Welcome to my blog";
+  title.innerText = "BLOG SITE";
   root.appendChild(title);
   const url = "https://jsonplaceholder.typicode.com/posts";
   const response = await axios.get(url);
